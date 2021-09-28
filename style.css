@@ -1,0 +1,235 @@
+/* ======== Default Css ======== */
+*{
+    margin: 0;
+    padding: 0;
+}
+.fix-width{
+    width: 1200px;
+    margin: auto;
+}
+.clear-fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+/* ======== Header section ======== */
+.header{
+    background-color: #32be9b;
+    padding: 20px 0;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.logo h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #e0eae8;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    background-color: #3e9981;
+}
+
+/* ======== Banner section ======== */
+.banner{
+    background-image: url(https://i.ibb.co/v4WWGvN/header-bg01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0;
+}
+.banner h1{
+    color: #fff;
+    font-size: 60px;
+}
+.banner h4{
+    color: #cdf2ea;
+    font-size: 20px;
+}
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+/* ======== Service section ======== */
+.service{
+    margin: 80px 0;
+}
+.service-text h2{
+    font-size: 40px;
+}
+.service-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.item{
+    width: 20%;
+    float: left;
+    margin: 0 30px;
+    margin-top: 120px;
+}
+.item i{
+    color: #2aba94;
+    font-size: 40px;
+}
+.item h2{
+    font-family: 'Open Sans', sans-serif;
+}
+.item p{
+    font-family: 'Open Sans', sans-serif;
+}
+hr{
+    height: 3px;
+    background-color: #20b78f;
+    border: none;
+}
+
+/* ======== About section ======== */
+.about{
+    margin: 60px 0;
+}
+.about-text{
+    margin: 60px 0;
+}
+.about-text h2{
+    font-size: 40px;
+}
+.about-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.image{
+    width: 45%;
+    float: left;
+}
+.image img{
+    max-width: 100%;
+}
+.text{
+    width: 50%;
+    float: right;
+    margin: 7px 0;
+}
+.text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+/* ======== Contact section ======== */
+.contact{
+    background-color: #f5f5f5;
+    padding: 80px 0;
+}
+.another{
+    width: 1000px;
+    margin: auto;
+}
+.contact-text{
+    margin-bottom: 80px;
+}
+.contact-text h2{
+    font-size: 40px;
+}
+.contact-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.address{
+    text-align: center;
+    float: left;
+}
+.address i{
+    color: #2aba94;
+    font-size: 25px;
+}
+.address p{
+    font-family: 'Open Sans', sans-serif;
+}
+.email{
+    text-align: center;
+    float: left;
+    margin: 0 250px;
+}
+.email i{
+    color: #2aba94;
+    font-size: 25px;
+}
+.email p{
+    font-family: 'Open Sans', sans-serif;
+}
+.phone{
+    text-align: center;
+    float: left;
+}
+.phone i{
+    color: #2aba94;
+    font-size: 25px;
+}
+.phone p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ======== Footer section ======== */
+.footer{
+    background-color: #2aba94;
+    padding: 20px 0;
+}
+.socal-menu ul{
+    list-style: none;
+}
+.socal-menu ul li{
+    display: inline-block;
+}
+.socal-menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    margin: 0 15px;
+}
+.footer-bottom{
+    background-color: #202020;
+    padding: 15px 0;
+}
+.footer-bottom h4{
+    color: #4f4f4f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
